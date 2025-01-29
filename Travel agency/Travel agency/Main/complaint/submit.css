@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styles */
+  .container {
+    text-align: center;
+  }
+  
+  /* Title Styles */
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph Styles */
+  p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* Email Styles */
+  .email {
+    color: #007bff;
+    font-weight: bold;
+  }
+  

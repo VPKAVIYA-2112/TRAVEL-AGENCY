@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    font-size:15px;
+    padding:10px;
+   
+}
+
+
+header{
+    position: absolute;
+    top: 2.5rem;
+    left: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ header #icon{
+    background-color: rgba(238, 162, 162, 0.733);
+    height: 4rem;
+    color: #f31b1b;
+    width: 4rem;
+    border-radius: 50%;
+    border: 1px solid #000;
+ }
+ 
+ header #icon:hover{
+    color: #fff;
+    background-color: #000;
+ }
+
+
+.container{
+    background-color: #f0e5e5;
+    padding: 5px 20px 15px 20px;
+    border:5px solid #eeeef8;
+    border-radius:5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    padding: 5px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin:8px;
+}
+
+.main_heading{
+    text-align: center;
+}
+
+input[type="submit"],input[type="reset"]{
+    /* background-color:rgba(7, 245, 186, 0.993); */
+    background-image: linear-gradient(to right, rgb(9, 12, 9),rgba(235, 227, 227, 0), rgb(14, 19, 14));
+    color: black;
+    border: none;
+    border-radius:10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    height: 30px;
+    width:150px;   
+    cursor: pointer;
+    font-weight: bolder;
+}
+.button {
+    text-align: center;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    text-transform:uppercase;
+}

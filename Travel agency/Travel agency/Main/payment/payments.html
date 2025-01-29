@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="../payment/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"><ion-icon id="icon" name="arrow-back-outline"></ion-icon></a>
+  </header>
+    <div class="container">
+    <form>
+      <h1 class="main_heading">Payment Form</h1>
+      <hr>
+      <h2>Contact Information</h2>
+      <p>Name: * <input type="text" name="name" required placeholder="Basit Iqbal"></p>
+      <fieldset>
+        <legend>Gender * </legend>
+        <p><input type="radio" name="gender" id="male"  required/> Male</p>
+        <p><input type="radio" name="gender" id="female" required/> Female</p>
+      </fieldset>
+      <P>Address:<br>
+        <textarea type="text" name="address" id="address" placeholder="Enter Your Address" cols="50" rows="10"></textarea>
+      </P>
+      <p>Email: * <input type="email" name="email" id="email" placeholder="abc05@gmail.com" required> </p>
+      <p>Pincode: * <input type="number" name="pincode" id="pincode" required placeholder="12345"></p>
+      
+      <h2>Payment Information</h2>
+      <p>Card Type: * 
+        <select>
+            <option value="">--Select Card Type--</option>
+            <option value="HBL" required>Habib Bank Limited</option>
+            <option value="ABL" required>Alied Bank Limited</option>
+            <option value="NBP" required>National Bank of Pakistan</option>
+        </select>
+      </p>
+      <p>Card Number: *<input type="number" name="card_number" id="card_number" required placeholder="1111-2222-3333-4444"> </p>
+      <p>Expiration Date: <input type="date" name="date" id="date" > </p>
+      <p>CVV : *<input type="password" name="password" id="password" required placeholder="123"></p>
+      <div class="button">
+        <input type="submit" value="Pay Now"><br>
+    
+        <input type="reset" value="Reset">
+      </div>
+    </div>
+    </form>
+
+
+    <!-- this is the back icon js file -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

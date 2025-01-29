@@ -1,0 +1,36 @@
+body{
+  font-family: Georgia, 'SophosSansLight', Times, serif;
+  font-size: large;
+  background-color:rgb(139, 231, 231);
+  background-repeat: no-repeat; 
+  
+}
+h1{
+  text-align: center;
+}
+.align{
+  text-align: justify;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.center{
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 12px;
+    color: #666;
+  }
+  
